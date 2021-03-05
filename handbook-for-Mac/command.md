@@ -10,3 +10,8 @@ sudo lsof -i :3000
 ```Shell
 sudo kill -9 PID
 ```
+
+* CPU점유율으로 내림차순으로 활성 상태 확인하기(빠져나가기 : q)
+```Shell
+top -u
+```
